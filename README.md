@@ -5,6 +5,7 @@ The system is based on a layered architecture model with two ATmega32 Microcontr
 Project Desciption :
 
 MC1 (HMI_ECU) : Includes a Human Machine Interface with a 2x16 LCD and a 4x4 keypad. It serves as the user's gateway to the system, allowing them to interact easily. Users can enter and confirm their passwords through the keypad and receive feedback on the 2x16 LCD.
+
 MC2 (Control_ECU) : Manages the system with an EEPROM, Buzzer, and Dc-Motor. This control unit is responsible for all system processes and decisions. It verifies the entered passwords, saves the password into the EEPROM ,controls the motor for door locking and unlocking, and provides security measures for incorrect password attempts
 
 System Functionality :
